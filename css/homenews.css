@@ -1,0 +1,1128 @@
+
+.box {
+    width: 100%;
+}
+.fullSlide {
+    height: 490px;
+    min-width: 1190px;
+    position: relative;
+    width: 100%;
+    z-index: 999;
+}
+.fullSlide .bd {
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+.fullSlide .bd ul {
+    width: 100% !important;
+}
+.fullSlide .bd ul a {
+    width: 100% !important;
+}
+.fullSlide .bd li {
+    height: 490px;
+    overflow: hidden;
+    text-align: center;
+    width: 100% !important;
+}
+.fullSlide .bd li a {
+    display: block;
+    height: 490px;
+}
+.fullSlide .hd {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    bottom: 0;
+    height: 16px;
+    left: 56%;
+    line-height: 16px;
+    margin-left: -78px;
+    padding-bottom: 20px;
+    position: absolute;
+    text-align: center;
+    width: 156px;
+    z-index: 100;
+}
+.fullSlide .hd ul {
+    text-align: center;
+}
+.fullSlide .hd ul li {
+    background: rgba(0, 0, 0, 0) url("http://www.youlipin.com/img/home/banner-ico.png") no-repeat scroll 0 0;
+    cursor: pointer;
+    display: inline-block;
+    float: left;
+    height: 16px;
+    line-height: 9999px;
+    margin-right: 10px;
+    overflow: hidden;
+    width: 16px;
+}
+.fullSlide .hd ul .on {
+    background: rgba(0, 0, 0, 0) url("http://www.youlipin.com/img/home/banner-ico-hover.png") no-repeat scroll 0 0;
+}
+.slider {
+    height: 490px;
+    min-width: 1190px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.slider_main {
+    margin: 0 auto;
+    width: 890px;
+}
+.slider_list {
+    height: 490px;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.slider_main {
+    height: 490px;
+    left: 50%;
+    margin-left: -595px;
+    position: absolute;
+    top: 0;
+}
+.slider_list {
+    width: 210px;
+    z-index: 9999;
+}
+.slider_list .slider_list_first {
+    background-image: none !important;
+}
+.slider_list ul {
+    background: rgba(0, 0, 0, 0) url("http://www.youlipin.com/img/home/nav-list-bg.png") repeat scroll 0 0;
+    height: 484px;
+    overflow: hidden;
+    padding-top: 6px;
+    width: 210px;
+}
+.slider_list ul li {
+    float: left;
+    height: 36px;
+    width: 210px;
+}
+.slider_list ul li p {
+    background: rgba(0, 0, 0, 0) url("http://www.youlipin.com/img/home/icon.png") no-repeat scroll 50px -8px;
+    color: #fff;
+    font-size: 15px;
+    height: 38px;
+    line-height: 38px;
+    padding-left: 85px;
+    position: absolute;
+    width: 125px;
+}
+.slider_list ul li p a {
+    color: #fff;
+    display: inline-block;
+    height: 38px;
+    line-height: 38px;
+}
+.slider_list ul li p a:hover {
+    color: #fff;
+}
+.slider_list ul li b {
+    background: rgba(0, 0, 0, 0) url("http://youlipin.com/img/left.png") no-repeat scroll right center;
+    display: none;
+    height: 38px;
+    left: 125px;
+    position: absolute;
+    width: 10px;
+}
+.slider_list ul li b.selectedB {
+    display: block;
+}
+.slider_list ul li.lunboone {
+    background: rgba(0, 0, 0, 0.3) url("http://www.youlipin.com/img/home/nav-hover.png") no-repeat scroll 204px center;
+}
+.slider_list ul li.lunboone p {
+    background: rgba(0, 0, 0, 0) url("http://www.youlipin.com/img/home/icon-hover.png") no-repeat scroll 50px -8px;
+}
+.slider_center {
+    left: 210px;
+    width: 980px;
+}
+.slider_center, .slider_center ul {
+    height: 490px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+}
+.slider_center ul {
+    left: 0;
+    width: 12760px;
+}
+.slider_center ul li {
+    float: left;
+    overflow: hidden;
+}
+.slider_center ul li, .slider_center ul li #focus {
+    height: 490px;
+    position: relative;
+    width: 980px;
+}
+.classify {
+    height: 485px;
+    left: 210px;
+    top: 2px;
+    width: 680px;
+    z-index: 9999;
+}
+.classify, .classify div.div-con {
+    height: 485px;
+    position: absolute;
+    visibility: hidden;
+}
+.classify div.div-con {
+    background: #fff none repeat scroll 0 0;
+    width: 680px;
+    z-index: 101;
+}
+.classify div.div-con .industry-nav-p {
+    color: #c4c4c4;
+    font-size: 14px;
+    padding-top: 24px;
+}
+.classify div.div-con .industry-nav-p a {
+    color: #333;
+}
+.classify div.div-con .industry-nav-p a:hover {
+    color: #ee0626;
+}
+.classify div.div-con dl {
+    clear: both;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.classify div.div-con dl dt {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    height: 14px;
+    line-height: 14px;
+    padding-bottom: 8px;
+}
+.classify div.div-con dl dt i {
+    padding-left: 6px;
+}
+.classify div.div-con dl dd {
+    height: 22px;
+    line-height: 22px;
+    padding-top: 5px;
+}
+.classify div.div-con dl dd a {
+    display: block;
+}
+.classify div.div-con dl dd a:hover span {
+    color: #ee0626;
+}
+.classify div.div-con dl dd a i {
+    color: #ddd;
+    float: left;
+    padding: 0 10px;
+}
+.classify div.div-con dl dd a span {
+    color: #555;
+}
+.classify div.div-con dl dd a span.pa-l-n {
+    padding-left: 0;
+}
+.classify div.div-con dl dd span {
+    background: rgba(0, 0, 0, 0) url("http://www.youlipin.com/img/home/nav-list-bor-bg.jpg") no-repeat scroll right center;
+    color: #555;
+    display: inline-block;
+    float: left;
+    font-size: 12px;
+    margin-right: 10px;
+    padding-right: 12px;
+    white-space: nowrap;
+}
+.classify div.cat_11 dl a {
+    background: rgba(0, 0, 0, 0) url("http://www.youlipin.com/img/home/industry-list-bg.jpg") no-repeat scroll 0 0;
+    color: #333;
+    display: block;
+    float: left;
+    font-size: 14px;
+    height: 36px;
+    line-height: 36px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    padding-left: 15px;
+    width: 155px;
+}
+.classify div.cat_11 dl a.gift1 dt {
+    font-weight: normal;
+    height: 36px;
+    line-height: 36px;
+    padding: 0;
+}
+.classify div.cat_11 dl a.gift1:hover {
+    background: rgba(0, 0, 0, 0) url("http://www.youlipin.com/img/home/industry-list-bg-hover.jpg") no-repeat scroll 0 0;
+}
+.classify div.cat_11 dl a.gift1:hover dt {
+    color: #fff;
+}
+.classify div.div-con .fl {
+    padding: 0 30px;
+    width: 350px;
+}
+.classify div.cat_11.div-con .fl {
+    padding: 0 20px 0 30px;
+    width: 360px;
+}
+.classify div.div-con .fr {
+    padding-right: 10px;
+    width: 256px;
+}
+.classify div.div-con .fr a img {
+    margin-top: 10px;
+}
+.classify div.div-con.cat_12 {
+    width: 680px;
+}
+.classify div.div-con.cat_12 ul {
+    height: 469px;
+    overflow: hidden;
+    padding: 10px 10px 0;
+    width: 394px;
+}
+.classify div.div-con.cat_12 ul li {
+    float: left;
+    height: 93px;
+    margin-bottom: 1px;
+    margin-right: 1px;
+}
+.main-con {
+    background: #fff none repeat scroll 0 0;
+    width: 100%;
+}
+.main {
+    margin: 0 auto;
+    width: 1190px;
+}
+.limitbuy {
+    overflow: hidden;
+}
+.limitbuy .bd {
+    height: 360px;
+    overflow: hidden;
+    width: 1190px;
+}
+.limitbuy h3 {
+    font-weight: normal;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    padding: 30px 0 15px;
+}
+.limitbuy h3 .fl span {
+    float: left;
+}
+.limitbuy h3 .fl .span1 {
+    color: #444;
+    font-size: 22px;
+}
+.limitbuy h3 .fl .span2 {
+    color: #d3d3d3;
+    font-family: "Arial";
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.limitbuy h3 .fr {
+    display: block;
+    overflow: hidden;
+    padding-top: 4px;
+}
+.limitbuy h3 .fr .prev {
+    background: rgba(0, 0, 0, 0) url("http://www.youlipin.com/img/home/sale-list-prev.png") no-repeat scroll 0 0;
+    float: left;
+    height: 13px;
+    margin-right: 10px;
+    width: 8px;
+}
+.limitbuy h3 .fr .next {
+    background: rgba(0, 0, 0, 0) url("http://www.youlipin.com/img/home/sale-list-next.png") no-repeat scroll 0 0;
+    float: left;
+    height: 13px;
+    width: 8px;
+}
+.limitbuy h3 .fr ul {
+    float: left;
+    overflow: hidden;
+    padding-top: 4px;
+}
+.limitbuy h3 .fr ul li {
+    background: rgba(0, 0, 0, 0) url("http://www.youlipin.com/img/home/point-ico.jpg") no-repeat scroll 0 0;
+    cursor: pointer;
+    float: left;
+    height: 5px;
+    margin-right: 10px;
+    text-indent: -999px;
+    width: 5px;
+}
+.limitbuy h3 .fr ul li.on {
+    background: rgba(0, 0, 0, 0) url("http://www.youlipin.com/img/home/point-ico-hover.jpg") no-repeat scroll 0 0;
+}
+.limitbuy .bd ul {
+    height: 360px;
+    left: 0;
+    overflow: hidden;
+    position: relative;
+    top: 0;
+    width: 2380px;
+}
+.limitbuy .bd ul li {
+    float: left;
+    height: 360px;
+    width: 297px;
+}
+.limitbuy .bd ul li.li1 {
+    background: #efefef none repeat scroll 0 0;
+}
+.limitbuy .bd ul li.li2 {
+    background: #f6f6f6 none repeat scroll 0 0;
+}
+.limitbuy .bd ul li p {
+    text-align: center;
+}
+.limitbuy .bd ul li .p1 img {
+    margin: 0 25px;
+}
+.limitbuy .bd ul li .p2 {
+    color: #ff0c2e;
+    font-family: "华文黑体","微软雅黑","宋体";
+    font-size: 24px;
+    font-weight: bold;
+    height: 40px;
+    line-height: 40px;
+}
+.limitbuy .bd ul li .p3 {
+    color: #888;
+    font-size: 14px;
+    height: 15px;
+    margin-bottom: 10px;
+    overflow: hidden;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.limitbuy .bd ul li .p4 {
+    color: #333;
+    font-size: 12px;
+    height: 15px;
+    line-height: 15px;
+}
+.limitbuy .bd ul li .p4 img {
+    padding-top: 5px;
+}
+.limitbuy .bd ul li div.time {
+    background: rgba(0, 0, 0, 0) url("http://www.youlipin.com/img/home/time.png") no-repeat scroll 75px center;
+    padding-left: 100px;
+}
+.limitbuy .countdown {
+    display: block;
+    list-style: outside none none;
+    padding: 0;
+    text-align: center;
+}
+.limitbuy .countdown dd {
+    float: left;
+}
+.limitbuy .countdown dd span {
+    float: left;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+}
+.limitbuy .countdown dd.seperator {
+    font-size: 12px;
+    line-height: 15px;
+    vertical-align: top;
+}
+.limitbuy .countdown dd p {
+    color: #a7abb1;
+    float: left;
+    font-size: 14px;
+}
+.case-list {
+    margin-top: 20px;
+    overflow: hidden;
+}
+.case-list div.fl {
+    width: 339px;
+}
+.case-list ul.fr {
+    border-left: 1px solid #ececec;
+    border-top: 1px solid #ececec;
+    width: 850px;
+}
+.case-list ul.fr li {
+    border-bottom: 1px solid #ececec;
+    border-right: 1px solid #ececec;
+    cursor: pointer;
+    float: left;
+    height: 88px;
+    width: 169px;
+}
+.case-list ul.fr li img {
+    margin: 14px 0 0 24px;
+}
+.scene {
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+.scene h3 {
+    font-weight: normal;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    padding: 30px 0 15px;
+}
+.scene h3 span {
+    float: left;
+}
+.scene h3 .span1 {
+    color: #444;
+    font-size: 22px;
+}
+.scene h3 .span2 {
+    color: #d3d3d3;
+    font-family: "Arial";
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.scene ul {
+    overflow: hidden;
+}
+.scene ul li {
+    float: left;
+}
+.wrap {
+    margin: 0 auto;
+    padding-bottom: 40px;
+    width: 1190px;
+}
+.newpro .ulWrap {
+    height: 464px;
+    overflow: hidden;
+}
+.newpro .bd {
+    overflow: hidden;
+    width: 1190px;
+}
+.newpro ul {
+    background: #fff none repeat scroll 0 0;
+    border-left: 1px solid #e7e7e7;
+    border-top: 1px solid #e7e7e7;
+    height: 464px;
+    overflow: hidden;
+}
+.newpro ul li {
+    border-bottom: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7;
+    float: left;
+    height: 231px;
+    width: 236.8px;
+}
+.newpro ul li.hot {
+    background: #e8e8e8 none repeat scroll 0 0;
+}
+.newpro ul li img {
+    margin: 10px 0 0 14px;
+}
+.newpro h3 {
+    font-weight: normal;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    padding: 30px 0 15px;
+}
+.newpro h3 .fl span {
+    float: left;
+}
+.newpro h3 .fl .span1 {
+    color: #444;
+    font-size: 22px;
+}
+.newpro h3 .fl .span2 {
+    color: #d3d3d3;
+    font-family: "Arial";
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.newpro h3 .fr {
+    display: block;
+    overflow: hidden;
+    padding-top: 4px;
+}
+.newpro h3 .fr .prev {
+    background: rgba(0, 0, 0, 0) url("http://www.youlipin.com/img/home/sale-list-prev.png") no-repeat scroll 0 0;
+    float: left;
+    height: 13px;
+    margin-right: 10px;
+    width: 8px;
+}
+.newpro h3 .fr .next {
+    background: rgba(0, 0, 0, 0) url("http://www.youlipin.com/img/home/sale-list-next.png") no-repeat scroll 0 0;
+    float: left;
+    height: 13px;
+    width: 8px;
+}
+.newpro h3 .fr ul {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: medium none;
+    float: left;
+    height: auto;
+    overflow: hidden;
+    padding-top: 4px;
+}
+.newpro h3 .fr ul li {
+    background: rgba(0, 0, 0, 0) url("http://www.youlipin.com/img/home/point-ico.jpg") no-repeat scroll 0 0;
+    cursor: pointer;
+    float: left;
+    height: 5px;
+    margin-right: 10px;
+    text-indent: -999px;
+    width: 5px;
+}
+.newpro h3 .fr ul li.on {
+    background: rgba(0, 0, 0, 0) url("http://www.youlipin.com/img/home/point-ico-hover.jpg") no-repeat scroll 0 0;
+}
+.digital {
+    overflow: hidden;
+}
+.digital h3 {
+    font-weight: normal;
+    height: 22px;
+    line-height: 22px;
+    overflow: hidden;
+    padding: 40px 0 15px;
+}
+.digital h3 .fl span {
+    float: left;
+}
+.digital h3 .fl .span1 {
+    color: #444;
+    font-size: 22px;
+}
+.digital h3 .fl .span2 {
+    color: #d3d3d3;
+    font-family: "Arial";
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.digital h3 .fr {
+    display: block;
+    overflow: hidden;
+}
+.digital h3 .fr .prev {
+    background: rgba(0, 0, 0, 0) url("http://www.youlipin.com/img/home/sale-list-prev.jpg") no-repeat scroll 0 0;
+    float: left;
+    height: 13px;
+    margin-right: 10px;
+    width: 8px;
+}
+.digital h3 .fr .next {
+    background: rgba(0, 0, 0, 0) url("http://www.youlipin.com/img/home/sale-list-next.jpg") no-repeat scroll 0 0;
+    float: left;
+    height: 13px;
+    width: 8px;
+}
+.digital h3 .fr ul {
+    float: left;
+    overflow: hidden;
+}
+.digital h3 .fr ul li {
+    float: left;
+    height: 35px;
+    line-height: 32px;
+    margin-right: 20px;
+}
+.digital h3 .fr ul li.on {
+    border-bottom: 2px solid #ee0626;
+}
+.digital h3 .fr ul li a {
+    color: #666;
+    font-size: 14px;
+}
+.digital h3 .fr a.enter {
+    border-left: 1px solid #c6c6c6;
+    color: #bbb;
+    float: left;
+    font-size: 14px;
+    line-height: 18px;
+    margin-top: 6px;
+    padding-left: 20px;
+}
+.digital h3 .fr a.enter:hover {
+    color: #ee0626;
+}
+.digital .bd1 {
+    background: #fff none repeat scroll 0 0;
+    height: 639px;
+    overflow: hidden;
+}
+.digital .bd1 div.fl {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #e6e6e6 -moz-use-text-color #e6e6e6 #e6e6e6;
+    border-image: none;
+    border-style: solid none solid solid;
+    border-width: 1px medium 1px 1px;
+    height: 637px;
+    width: 232px;
+}
+.digital .bd1 div.fl .bd-con {
+    overflow: hidden;
+    padding: 16px 20px 0;
+}
+.digital .bd1 div.fl .bd-con .bd-tt {
+    border-bottom: 1px solid #f1f1f1;
+    color: #333;
+    font-size: 15px;
+    margin-bottom: 6px;
+    padding-bottom: 6px;
+}
+.digital .bd1 div.fl .bd-con ul {
+    height: 180px;
+    overflow: hidden;
+}
+.digital .bd1 div.fl .bd-con ul li {
+    float: left;
+    height: 26px;
+    line-height: 26px;
+    padding-right: 20px;
+}
+.digital .bd1 div.fl .bd-con ul li a {
+    color: #888;
+    font-size: 13px;
+}
+.digital .bd1 div.fl .bd-con ul li.hover a {
+    color: #4398ef;
+}
+.digital .bd1 div.fl .bd-con ul li a:hover {
+    color: #4398ef;
+}
+.digital .bd1 div.fr {
+    width: 957px;
+}
+.digital .bd1 div.fr ul {
+    border-left: 1px solid #e6e6e6;
+    border-top: 1px solid #e6e6e6;
+    overflow: hidden;
+    padding-left: 2px;
+}
+.digital .bd1 div.fr ul li {
+    background: #fff none repeat scroll 0 0;
+    border-bottom: 1px solid #e6e6e6;
+    border-right: 1px solid #e6e6e6;
+    float: left;
+    height: 278px;
+    padding: 20px 13.7px;
+    width: 210px;
+}
+.digital .bd1 div.fr ul li a:hover .p1 {
+    color: #000;
+}
+.digital .bd1 div.fr ul li img {
+    transition: all 0.4s ease-out 0s;
+}
+.digital .bd1 div.fr ul li:hover img {
+    margin-left: -6px;
+}
+.digital .bd1 div.fr ul li.big:hover img {
+    margin-left: 0;
+}
+.digital .bd1 div.fr ul li.big1:hover img {
+    margin-left: 0;
+}
+.digital .bd1 div.fr ul li .p1 {
+    color: #666;
+    font-size: 14px;
+    height: 15px;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+.digital .bd1 div.fr ul li .p2 {
+    color: #ee0626;
+    font-size: 16px;
+    padding-bottom: 31px;
+}
+.digital .bd1 div.fr ul li.big {
+    height: 318px;
+    padding: 0;
+    width: 476px;
+}
+.digital .bd1 div.fr ul li.big1 {
+    height: 318px;
+    padding: 0;
+    width: 714.5px;
+}
+.avder1 {
+    height: 70px;
+    padding-top: 15px;
+}
+.avder2 {
+    height: 90px;
+    overflow: hidden;
+    padding-top: 40px;
+}
+.avder1 ul {
+    overflow: hidden;
+}
+.avder1 ul li {
+    float: left;
+    margin-right: 23px;
+    padding-bottom: 3px;
+    padding-top: 2px;
+    width: 70px;
+}
+.avder1 ul li img {
+    border-radius: 50%;
+    transition: all 0.1s ease-out 0s;
+}
+.avder1 ul li a img:hover {
+    border-radius: 50%;
+    box-shadow: 0 0 6px -1px #c1c1c1;
+}
+.industry {
+    background: #fff none repeat scroll 0 0;
+    min-width: 1190px;
+    width: 100%;
+}
+.industry-con {
+    margin: 0 auto;
+    width: 1190px;
+}
+.foot-industry {
+    font-family: "微软雅黑";
+    margin: 0 auto;
+    padding-top: 50px;
+    width: 1190px;
+}
+.foot-industry a {
+    font-family: "微软雅黑";
+}
+.foot-industry ul {
+    background: rgba(0, 0, 0, 0) url("http://www.youlipin.com/img/foot-industry-tt.png") no-repeat scroll 0 0;
+    overflow: hidden;
+}
+.foot-industry ul li {
+    float: left;
+    margin-bottom: 20px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-top: 3px;
+    width: 218px;
+}
+.foot-industry ul li img {
+    transition: all 0.2s ease-out 0s;
+}
+.foot-industry ul li:hover img {
+    transform: scale(1.05, 1.05);
+}
+.foot-industry ul li div.fl {
+    width: 100px;
+}
+.foot-industry ul li.li1 {
+    margin-left: 496px;
+    padding-left: 0;
+}
+.foot-industry ul li.li2 p.p1 {
+    padding-top: 10px;
+}
+.foot-industry ul li img {
+    float: left;
+    margin-right: 20px;
+}
+.foot-industry ul li p {
+    float: left;
+    width: 100%;
+}
+.foot-industry ul li p.p1 {
+    color: #444;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 2px;
+    padding-top: 20px;
+}
+.foot-industry ul li p.p2 {
+    color: #777;
+    font-family: "Arial";
+    font-size: 12px;
+    line-height: 12px;
+    padding-top: 3px;
+}
+.foot-industry ul li:hover p.p1 {
+    color: #000;
+}
+.foot-industry ul li:hover p.p2 {
+    color: #000;
+}
+.giftency {
+    overflow: hidden;
+}
+.giftency .hd {
+    background: rgba(0, 0, 0, 0) url("http://www.youlipin.com/img/home/gift-bor-bg.jpg") repeat-x scroll left center;
+    color: #888;
+    font-size: 17px;
+    height: 18px;
+    line-height: 18px;
+    margin: 30px 0 20px;
+}
+.giftency .hd span {
+    background: #fff none repeat scroll 0 0;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100px;
+}
+.giftency .bd {
+    overflow: hidden;
+}
+.giftency .bd {
+    padding-bottom: 60px;
+}
+.giftency .bd ul {
+    overflow: hidden;
+}
+.giftency .bd ul li {
+    float: left;
+    margin-right: 30px;
+    width: 275px;
+}
+.giftency .bd ul li a:hover .p1 {
+    color: #000;
+}
+.giftency .bd ul li a .p1 {
+    color: #555;
+    font-size: 14px;
+    height: 15px;
+    overflow: hidden;
+    padding: 15px 0 10px;
+}
+.giftency .bd ul li a .p2 {
+    color: #aaa;
+    font-size: 12px;
+    height: 32px;
+    line-height: 16px;
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+.giftency .bd ul li .p3 {
+    color: #d9d9d9;
+}
+.giftency .bd ul li a .p3 .span1 {
+    color: #333;
+    font-size: 14px;
+}
+.giftency .bd ul li a .p3 .span2 {
+    color: #fe2937;
+    font-size: 14px;
+}
+.giftency .bd ul li a:hover .p3 .span1 {
+    text-decoration: underline;
+}
+.recom-gift {
+    margin: 0 auto;
+    overflow: hidden;
+    padding-bottom: 60px;
+    width: 1190px;
+}
+.recom-gift .hd {
+    background: rgba(0, 0, 0, 0) url("http://www.youlipin.com/img/home/gift-bor-bg.jpg") repeat-x scroll left center;
+    color: #888;
+    font-size: 17px;
+    height: 18px;
+    line-height: 18px;
+    margin: 0 0 45px;
+}
+.recom-gift .hd span {
+    background: #fff none repeat scroll 0 0;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 130px;
+}
+.recom-gift ul {
+    overflow: hidden;
+}
+.recom-gift ul li {
+    border-right: 1px solid #e6e6e6;
+    float: left;
+    height: 220px;
+    width: 196px;
+}
+.recom-gift ul li a p {
+    text-align: center;
+}
+.recom-gift ul li a .p1 {
+    color: #333;
+    font-size: 14px;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+}
+.recom-gift ul li a .p2 {
+    padding: 15px 0;
+}
+.recom-gift ul li ul.bd {
+    overflow: hidden;
+    padding: 0 0 0 17px;
+}
+.recom-gift ul li ul.bd li {
+    border-right: medium none;
+    height: 24px;
+    line-height: 24px;
+    margin-right: 15px;
+    width: 73px;
+}
+.recom-gift ul li ul.bd li a {
+    color: #888;
+    font-size: 12px;
+}
+.recom-gift ul li ul.bd li a:hover {
+    color: #4398ef;
+}
+.suspen {
+    background: rgba(0, 0, 0, 0) url("http://www.youlipin.com/img/home/suspen-bg.png") repeat scroll 0 0;
+    display: none;
+    height: 50px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99999;
+}
+.suspen .suspen-con {
+    margin: 0 auto;
+    width: 1190px;
+}
+.suspen .suspen-con #suspen-search-body {
+    float: left;
+    height: 43px;
+    margin-left: 170px;
+    padding-top: 7px;
+}
+.suspen .suspen-con #suspen-search-body .search-tag {
+    height: 24px;
+    line-height: 24px;
+}
+.suspen .suspen-con #suspen-search-body .search-tag a {
+    color: #aaa;
+    float: left;
+    margin-right: 17px;
+}
+.suspen .suspen-con #suspen-search-body .search-tag .hover {
+    color: #ee7600;
+}
+.suspen .suspen-con #suspen-go {
+    background: rgba(0, 0, 0, 0) url("http://www.youlipin.com/img/home/suspen-seach-btn.png") no-repeat scroll 0 0;
+    border: medium none;
+    cursor: pointer;
+    display: block;
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+    text-indent: -9999px;
+    width: 70px;
+}
+.suspen .suspen-con #suspen-keyword {
+    background: rgba(0, 0, 0, 0) url("http://www.youlipin.com/img/home/suspen-seach-txt.png") no-repeat scroll 0 0;
+    border: medium none;
+    color: #aaa;
+    display: block;
+    font-size: 13px;
+    height: 36px;
+    line-height: 36px;
+    overflow: hidden;
+    padding-left: 10px;
+    width: 520px;
+}
+.suspen .suspen-con #suspen-search_suggest {
+    background: #fff none repeat scroll 0 0;
+    position: absolute;
+    z-index: 902;
+}
+.suspen .suspen-con #suspen-search_suggest ol {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: -moz-use-text-color #9fa0a0 #9fa0a0;
+    border-image: none;
+    border-style: none solid solid;
+    border-width: 0 1px 1px;
+    width: 348px;
+}
+.suspen .suspen-con #suspen-search_suggest ol li {
+    cursor: pointer;
+    height: 20px;
+    overflow: hidden;
+    padding: 3px 10px;
+}
+.suspen .suspen-con #suspen-search_suggest ol li.selected {
+    background: #f2f2f2 none repeat scroll 0 0;
+}
+.suspen .suspen-con #suspen-search_suggest ol li span.suggest-result {
+    color: #5a5;
+    padding-left: 10px;
+}
+.right_nav {
+    display: none;
+    margin: -248px 615px 0 auto;
+    position: fixed;
+    right: 50%;
+    top: 50%;
+    width: 40px;
+    z-index: 99;
+}
+.right_nav .right_nav_list {
+    background: rgba(0, 0, 0, 0) url("http://www.youlipin.com/img/home/right_nav.jpg") no-repeat scroll left top;
+    height: 462px;
+    width: 40px;
+}
+.right_nav .right_nav_list li {
+    cursor: pointer;
+    font-size: 12px;
+    height: 40px;
+    margin-bottom: 2px;
+    text-align: center;
+    width: 40px;
+}
+.right_nav .right_nav_list li p {
+    font-size: 12px;
+    line-height: 14px;
+    padding: 6px 0 7px 7px;
+    text-indent: -9999px;
+    width: 25px;
+}
+.right_nav .right_nav_list li.selectedC {
+    background: #fe2937 none repeat scroll 0 0;
+    color: #fff;
+}
+.right_nav .right_nav_list li:hover p, .right_nav .right_nav_list li.selectedC p {
+    text-indent: 0;
+}
+.right_nav .right_nav_list li:hover {
+    background: #fe2937 none repeat scroll 0 0;
+    color: #fff;
+}
+.right_nav .go_top {
+    background: rgba(0, 0, 0, 0) url("http://www.youlipin.com/img/home/right_nav_top.jpg") no-repeat scroll 0 0;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    height: 33px;
+    line-height: 14px;
+    padding: 7px 8px 0 7px;
+    text-indent: -9999px;
+    width: 25px;
+}
