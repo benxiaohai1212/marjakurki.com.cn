@@ -2,17 +2,32 @@
 include('Mail.php');
 
 
-$recipients = 'renhuailin@keepfinding.com'; //CHANGE
-$headers['From']= 'sarahma@marjakurki.com.cn'; //CHANGE
-$headers['To']= 'renhuailin@keepfinding.com'; //CHANGE
-$headers['Subject'] = 'Test message';
-$body = 'Test message'; // Define SMTP Parameters
-$params['host'] = 'smtp.marjakurki.com.cn';
+// $recipients = 'renhuailin@keepfinding.com'; //CHANGE
+// $headers['From']= 'sarahma@marjakurki.com.cn'; //CHANGE
+// $headers['To']= 'renhuailin@keepfinding.com'; //CHANGE
+// $headers['Subject'] = 'Test message';
+// $body = 'Test message'; // Define SMTP Parameters
+// $params['host'] = 'smtp.marjakurki.com.cn';
+// // $params['host'] = 'smtp.exmail.qq.com';
+// $params['port'] = '25';
+// $params['auth'] = 'PLAIN';
+// $params['username'] = 'sarahma'; //CHANGE
+// $params['password'] = 'mk59070530'; //CHANGE
+
+
+$recipients = 'sarahma@marjakurki.com.cn'; //CHANGE
+$headers['From']= 'renhuailin@keepfinding.com'; //CHANGE
+// $headers['From']= 'sarahma@marjakurki.com.cn'; //CHANGE
+$headers['To']= 'sarahma@marjakurki.com.cn'; //CHANGE
+$headers['Subject'] = '礼品订制需求';
+$body = "这是测试邮件，收到请反馈，谢谢！"; // Define SMTP Parameters
+$params['host'] = 'smtp.exmail.qq.com';
 // $params['host'] = 'smtp.exmail.qq.com';
 $params['port'] = '25';
 $params['auth'] = 'PLAIN';
-$params['username'] = 'sarahma'; //CHANGE
-$params['password'] = 'mk59070530'; //CHANGE
+$params['username'] = 'renhuailin@keepfinding.com'; //CHANGE
+$params['password'] = 'Renhl01';
+
 // $params['username'] = 'renhuailin@keepfinding.com'; //CHANGE
 // $params['password'] = 'Renhl01'; //CHANGE
 

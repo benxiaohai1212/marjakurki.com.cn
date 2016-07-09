@@ -16,12 +16,12 @@
 		<div class="row language" style="margin: 10px auto;">
 			<div class="col-xs-7 col-xs-offset-5 col-sm-7 col-sm-offset-5 col-md-7 col-md-offset-5">
 				<ul>
-					<li><a href="#">SUOMI<span class="lang suomi"></span></a></li>
-					<li><a href="#">ENGLISH<span class="lang english"></span></a></li>
-					<li><a href="#">SVENSKA<span class="lang svenska"></span></a></li>
-					<li><a href="#">DEUTSCH<span class="lang deutsch"></span></a></li>
-					<li class="active"><a href="#">中文<span class="lang chinese"></span></a></li>
-					<li><a href="#">한국어<span class="lang hanyu"></span></a></li>
+                    <li><a href="http://www.marjakurki.com/">SUOMI<span class="lang suomi"></span></a></li>
+                    <li><a href="http://www.marjakurki.fi/en/">ENGLISH<span class="lang english"></span></a></li>
+                    <li><a href="http://www.marjakurki.fi/sv/">SVENSKA<span class="lang svenska"></span></a></li>
+                    <li><a href="http://www.marjakurki.fi/de/">DEUTSCH<span class="lang deutsch"></span></a></li>
+                    <li class="active"><a href="#">中文<span class="lang chinese"></span></a></li>
+                    <li><a href="http://www.marjakurki.co.kr/">한국어<span class="lang hanyu"></span></a></li>
 				</ul>
 			</div>
 		</div>
@@ -29,7 +29,7 @@
 	<div class="container">
 		<div class="row logolay">
 			<div class="col-md-3">
-				<a href="index.htm"><img src="images/logo.png" /></a>
+				<a href="index.htm" target="_blank"><img src="images/logo.png" /></a>
 			</div>
 			<div class="col-md-4 col-md-offset-5" style="text-align: right;">
 				<div class=" line2">高端商务礼品一站式解决方案</div>
@@ -42,15 +42,17 @@
 		<div class="row nav-menu">
 			<div class="col-zd-7"><a href="http://www.marjakurki.com.cn">官网首页</a></div>
 			<i class="vline"></i>
+            <div class="col-zd-7"><a href="http://dz.marjakurki.com.cn">企业定制首页</a></div>
+			<i class="vline"></i>
 			<div class=" col-zd-7"><a href="daily.htm">日常商务礼赠</a></div>
 			<i class="vline"></i>
-			<div class=" col-zd-7"><a href="sales.htm">促销赠品</a></div>
+			<div class=" col-zd-7"><a href="sales.htm" target="_blank">促销赠品</a></div>
 			<i class="vline"></i>
-			<div class=" col-zd-7"><a href="celebration.htm">周年庆典</a></div>
+			<div class=" col-zd-7"><a href="celebration.htm" target="_blank">周年庆典</a></div>
 			<i class="vline"></i>
-			<div class=" col-zd-7"><a href="keepsake.htm">活动纪念</a></div>
+			<div class=" col-zd-7"><a href="keepsake.htm" target="_blank">活动纪念</a></div>
 			<i class="vline"></i>
-			<div class="col-zd-7"><a href="welfare.htm">员工福利</a></div>
+			<div class="col-zd-7"><a href="welfare.htm" target="_blank">员工福利</a></div>
 			<i class="vline"></i>
 			<div class="col-zd-7"><a href="http://www.marjakurki.cn">网上商城</a></div>
 		</div>
@@ -1070,47 +1072,50 @@
 		$(function(){
 			var model = '	<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel">'+
 	'	<div class="modal-dialog" role="document">'+
-	'		<div class="modal-content">' + 
+	'		<div class="modal-content">' +
 	'			<div class="modal-header">' +
-	'				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>' + 
-	'				<h3 class="modal-title" id="exampleModalLabel">相似案例 立即订制<img src="images/woshou.png"> 精美样品 轻松获取</h3>' + 
-	'			</div>' + 
-	'			<div class="modal-body">' + 
-	'				<form>' + 
-	'					<h3>填写您的信息<h3>' + 
-	'					<div class="input-group margin-bottom-sm">' + 
-	'						<span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>' + 
-	'						<input class="form-control" id="username" name="username" type="text" placeholder="姓名">' + 
-	'					</div>' + 
-	'					<div class="input-group margin-bottom-sm">' + 
-	'						<span class="input-group-addon"><i class="fa fa-home fa-fw"></i></span>' + 
-	'						<input class="form-control" id="conpanyname" name="companyname" type="text" placeholder="公司">' + 
-	'					</div>' + 
-	'					<div class="input-group margin-bottom-sm">' + 
-	'						<span class="input-group-addon"><i class="fa fa-phone fa-fw"></i></span>' + 
-	'						<input class="form-control" id="phone" name="phone" type="text" placeholder="电话">' + 
-	'					</div>' + 
-	'				</form>' + 
-	'			</div>' + 
-	'			<div class="modal-footer">' + 
-	'				<button type="button" class="btn btn-primary" data-dismiss="modal">提交信息　尊享1对1服务</button>' + 
-	'				<button type="button" class="btn bibtn"><i class="fa fa-pencil-square-o fa-3x"></i></button>' + 
-	'			</div>' + 
-	'		</div>' + 
-	'	</div>' + 
+	'				<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>' +
+	'				<h3 class="modal-title" id="exampleModalLabel">相似案例 立即订制<img src="images/woshou.png"> 精美样品 轻松获取</h3>' +
+	'			</div>' +
+	'			<div class="modal-body">' +
+	'				<form>' +
+	'					<h3>填写您的信息<h3>' +
+	'					<div class="input-group margin-bottom-sm">' +
+	'						<span class="input-group-addon"><i class="fa fa-user fa-fw"></i></span>' +
+	'<input type="hidden" id="gift_category" name="gift_category" /><input type="hidden" id="gift_name" name="gift_name" /><input class="form-control" id="username" name="username" type="text" placeholder="姓名">' +
+	'					</div>' +
+	'					<div class="input-group margin-bottom-sm">' +
+	'						<span class="input-group-addon"><i class="fa fa-home fa-fw"></i></span>' +
+	'						<input class="form-control" id="conpanyname" name="companyname" type="text" placeholder="公司">' +
+	'					</div>' +
+	'					<div class="input-group margin-bottom-sm">' +
+	'						<span class="input-group-addon"><i class="fa fa-phone fa-fw"></i></span>' +
+	'						<input class="form-control" id="phone" name="phone" type="text" placeholder="电话">' +
+	'					</div>' +
+	'				</form>' +
+	'			</div>' +
+	'			<div class="modal-footer">' +
+	'				<button type="button" class="btn btn-primary" onclick="single_gift_customize();">提交信息　尊享1对1服务</button>' +
+	'				<button type="button" class="btn bibtn"><i class="fa fa-pencil-square-o fa-3x"></i></button>' +
+	'			</div>' +
+	'		</div>' +
+	'	</div>' +
 	'</div>';
 		$('body').append(model);
-		
+
 			$('#myModal').on('shown.bs.modal', function () {
 			 	$('#username').focus();
 			});
 			$('#myModal').on('hidden.bs.modal', function () {
-			 	
+
 			});
 			$(".dingzhi").click(function () {
+                $('#myModal #gift_name').val( $( this ).siblings(".title").html() );
+                $('#myModal #gift_category').val( $( this ).html() );
 				$('#myModal').modal('show');
 			});
 		});
 	</script>
+    <script src="js/single_gift_customize.js"></script>
 </body>
 </html>
